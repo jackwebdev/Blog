@@ -13,7 +13,7 @@ layout: default
     {% if post.image contains "http" or post.image contains "/assets" %}
     <img class="post-image" src="{{ post.image }}"/>
     {% else %}
-    <img class="post-image" src="/assets/images/default_blog_1.png"/>                                 
+    <img class="post-image" src="{{ site.url }}{{ site.baseurl }}/assets/images/default_blog_1.png"/>                                 
     {% endif %}
 
   </a>  
