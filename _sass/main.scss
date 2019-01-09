@@ -157,6 +157,7 @@ text-align: center;
     height: auto;
 
 }
+
 .blog-title,
 .about-title  {
     font-size: 2.4em;
@@ -175,10 +176,8 @@ text-align: center;
     font-style: italic;
 }
 
-.blog-content p,
-.blog-content li,
-.about-content p,
-.about-content li, {
+.blog-content,
+.about-content, {
     font-size: 1.14em;
 }
 
