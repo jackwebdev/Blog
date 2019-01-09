@@ -19,7 +19,7 @@ avatar: https://avatars3.githubusercontent.com/u/33595694?s=460&v=4
 
 #paginate
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/Blog/page:num/"
 
 name: Jack
 title: Jack's Front-End Journal
@@ -27,7 +27,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
    I'm learning Front-End Web Development. 
    I created this site to document my learning as a Web Developer. Everything posted is from my own keyboard and experiences I've discovered while learning web development.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  jackwebdev
