@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<article class="blog">
+    <h3 class="blog-title">{{ page.title }}</h3>
+    <p class="blog-date">{{ page.date | date_to_string }} - <span style="font-family: 'Reenie Beanie', cursive; font-size: 1.6em">Jack</span></p>
+    <div class="blog-content">
+        {{ content }}
+    </div>
+</article>
