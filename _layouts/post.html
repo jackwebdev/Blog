@@ -4,12 +4,15 @@
   <body>
     {% include navigation.html %}
     <article class="blog">
-            <blockquote>Welcome to my Blog, I'm Jack and these articles are details of my notes in order to learn Web Development. I will share my knowledge based on what I've learnt.</blockquote>
+            <blockquote>Welcome to my Blog, I'm Jack and these articles are details of my notes in order to learn Web Development. I will share my knowledge based on what I've learnt. - <span style="font-family: 'Reenie Beanie', cursive; font-size: 1.38em">Jack</span></blockquote>
+            <hr class="blog-hr">
             <h1 class="blog-title">{{ page.title }}</h1>
-            <p class="blog-date">{{ page.date | date_to_string }} - Words: {{ page.excerpt | number_of_words }}</p>
+            <p class="blog-date">{{ page.date | date_to_string }} - Words: {{ content | number_of_words }}</p>
+            <hr class="blog-hr">
             <div class="blog-content">
                 {{ content }}
             </div>
+            <br>
             <p class="blog-date">Typed by - <span style="font-family: 'Reenie Beanie', cursive; font-size: 1.6em">Jack</span></p>
         </article>
   </body>
