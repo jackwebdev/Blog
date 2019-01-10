@@ -182,3 +182,20 @@ text-align: center;
 }
 
 .about-title {text-align: left;}
+
+  table, td, th {  
+    border: 1px solid #dfe2e5;
+    text-align: center !important;
+  }
+
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  th, td {
+    padding: 9px;
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
