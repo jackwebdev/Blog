@@ -1,11 +1,17 @@
----
-layout: default
----
-<article class="blog">
-    <h3 class="blog-title">{{ page.title }}</h3>
-    <p class="blog-date">{{ page.date | date_to_string }} - <span style="font-family: 'Reenie Beanie', cursive; font-size: 1.6em">Jack</span></p>
-    <div class="blog-content">
-        {{ content }}
-    </div>
-    <p class="blog-date">Typed by - <span style="font-family: 'Reenie Beanie', cursive; font-size: 1.6em">Jack</span></p>
-</article>
+<!doctype html>
+<html>
+    {% include head.html %}
+  <body>
+    {% include navigation.html %}
+    <article class="blog">
+            <blockquote>Welcome to my Blog, I'm Jack and these articles are details of my notes in order to learn Web Development. I will share my knowledge based on what I've learnt.</blockquote>
+            <h1 class="blog-title">{{ page.title }}</h1>
+            <p class="blog-date">{{ page.date | date_to_string }} - <span style="font-family: 'Reenie Beanie', cursive; font-size: 1.6em">Jack</span></p>
+            <div class="blog-content">
+                {{ content }}
+            </div>
+            <p class="blog-date">Typed by - <span style="font-family: 'Reenie Beanie', cursive; font-size: 1.6em">Jack</span></p>
+        </article>
+  </body>
+  {% include footer.html %}
+</html>
