@@ -35,6 +35,9 @@ github_username:  jackwebdev
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/33595694?s=460&v=4
 
+# Google analytics Code
+google_analytics: UA-120594425-3
+
 # Build settings
 markdown: kramdown
 #theme: minima
