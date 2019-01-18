@@ -170,9 +170,10 @@ The example below is an example of how the syntax looks for an if statement. It'
 
 ```javascript 
 if(condition) {
-    //Run this code block as it's true!
+ //Run this code block as it's true!
 } else {
-    //The condition is not true, this code block will return instead!
+ //The condition is not true!
+ //Run this block.
 }
 ```
 
