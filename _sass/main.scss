@@ -10,7 +10,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: $light-black;
-  }
+}
 
 nav {
 display: grid;
@@ -221,3 +221,22 @@ table {
     border: 3px solid #f9f9f9;
     border-radius: 10px;
 }
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        max-width: none;
+        padding: 0;
+      }
+    .nav-items a {
+        font-size: 2.8em;
+    }
+    .blog h1,
+    .blog h2,
+    .blog h3,
+    .blog h4,
+    .blog h5,
+    .blog h6,
+    .blog p, {
+        padding: 0 20px 0 20px;
+    }
+  }
