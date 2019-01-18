@@ -236,7 +236,16 @@ table {
     .blog h4,
     .blog h5,
     .blog h6,
-    .blog p, {
+    .blog p,
+    .blog ul, {
         padding: 0 20px 0 20px;
+    }
+    .blog-title,
+    .about-title  {
+        font-size: 3.4em;
+    }
+    .blog-content,
+    .about-content, {
+        font-size: 2.14em;
     }
   }
