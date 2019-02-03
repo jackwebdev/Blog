@@ -6,8 +6,6 @@ category: Computer Science
 image: "/Blog/assets/images/laptop.png"
 # published: false
 ---
-> This article isn't finished yet.
-
 ## What is it?
 In simple terms, Big O Notation is a measurement that is used in order to determine the performance or complexity of an algorithm. As algorithm grows in complexity developers can use Big O Notation to work out the trends of time and space complexity of their algorithms. Big O Notation is a way to measure the "worst case" scenario of an algorithm and the trends rather than exact details.
 
